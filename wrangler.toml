@@ -1,8 +1,12 @@
-name = "v20251104"
+name = "edtx"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"			#KV绑定名默认不可修改
+id = "f0a82bfde01b4eedbfba828cf391ac84"				#KV数据库id
+
+# Observability 配置
+[observability]
+enabled = true
